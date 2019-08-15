@@ -25,6 +25,48 @@ steps (in order) in your Domo account.
 3.  Create an ETL process to combine data from the database to create a
     new data set.
 
-Step 1 is typically accomplished when you create the first connection
-but can be done separately. For simplicity sake we will do it inline
-with the first connection.
+#### Steps 1 & 2
+
+To create a connection to a specific database table, do the following.
+
+1.  Click the “+” sign in the top ribbon (between the magnifying glass
+    and the question mark)
+2.  Click Data
+3.  Click Database
+4.  Click the MySQL tile, read the documentation if you like, then click
+    “Get the Data”
+5.  The first section should say “Credentials”. You won’t have anything
+    set up the first time through, so you will be required to enter the
+    database details at this stage. The following information will be
+    neccessary.
+    -   Host: is6481.ckbeg5to5b6o.us-east-1.rds.amazonaws.com
+    -   Database name: dvdrental
+    -   Username: student
+    -   Password: test1234
+    -   Note that this is a terrible security set up. If you see
+        connection instructions like this in the real world, start
+        looking for another job. For our purposes, it’s fine. The data
+        is publicly available anyway.
+6.  Click “Next”.
+7.  Enter a query to sync Domo with the database. This is easier than it
+    might sound for this exercise.
+    -   If you want to sync the Actor table, simply type “select \* from
+        actor” and click Save.
+8.  In the scheduling window, select Manual. The data for this exercise
+    will not update. In other circumstances, you could select any of the
+    other options presented.
+9.  Give the data set a name and click Save. I would suggest naming the
+    tables according to where you get them. In the example above, I
+    would name the file “DVD Rental | Actor” so we know what database it
+    came from and which table it is. This will make your life easier
+    later on.
+
+You have now completed steps 1 & 2 for the first data set. Repeat these
+steps for all the other data sets required by your plan. Note that for
+the second and subsequent connections you can just select the set of
+credentials you created earlier.
+
+Note: you want to be a little more advanced, you can actually enter any
+SQL in step 7 you like. You may be able to eliminate some ETL work in
+the next step by being creative at this point. Again, not necessary, but
+feel free to be as creative as you like at this point.

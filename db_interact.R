@@ -9,3 +9,7 @@ mm <- src_mysql(
 )
 
 src_tbls(mm)
+
+#### To create user in the db ####
+# CREATE USER 'student'@'%' IDENTIFIED BY 'test1234';
+# GRANT SELECT ON dvdrental.* TO student;
