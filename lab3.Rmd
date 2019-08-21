@@ -22,7 +22,7 @@ In order to finish this lab, you will need to do the following three steps (in o
 2. Create one or more connections to the database.
 3. Create an ETL process to combine data from the database to create a new data set.
 
-#### Steps 1 & 2
+#### Steps 1 & 2 - Account and Connection Creation
 To create a connection to a specific database table, do the following.
 
 1. Click the "+" sign in the top ribbon (between the magnifying glass and the question mark)
@@ -44,3 +44,10 @@ To create a connection to a specific database table, do the following.
 You have now completed steps 1 & 2 for the first data set. Repeat these steps for all the other data sets required by your plan. Note that for the second and subsequent connections you can just select the set of credentials you created earlier.
 
 Note: you want to be a little more advanced, you can actually enter any SQL in step 7 you like. You may be able to eliminate some ETL work in the next step by being creative at this point. Again, not necessary, but feel free to be as creative as you like at this point.
+
+### Step 3 - ETL
+
+* [Domo YouTube Channel](https://www.youtube.com/channel/UCLhtrgF6h4PP44nVRfSIovA)
+* [ETL Part 1](https://www.youtube.com/watch?v=Z-GO3IeexEk)
+* [ETL Part 2](https://www.youtube.com/watch?v=SfB7CZzEROo)
+* [ETL Part 3](https://www.youtube.com/watch?v=sKQuysWmFGA)
