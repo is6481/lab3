@@ -8,14 +8,15 @@ process before metrics can be created in our data visualization tool.
 That means, to finish the exercise of creating a set of metrics for this
 example we will have to work a little out of order.
 
-In Lab 1, you should have written up a plan for metric creation that
+In Lab 2, you should have written up a plan for metric creation that
 includes some description of how tables from the DVD Rental database
 should be combined. The purpose of this lab is to upload the data from
 the database into Domo and create the ETL processes necessary to execute
 your plan. The full relational database has been loaded into a MySQL
 database in my AWS account for this course.
 
-### High level instructions
+High level instructions
+-----------------------
 
 In order to finish this lab, you will need to do the following three
 steps (in order) in your Domo account.
@@ -25,7 +26,7 @@ steps (in order) in your Domo account.
 3.  Create an ETL process to combine data from the database to create a
     new data set.
 
-#### Steps 1 & 2
+### Steps 1 & 2 - Account and Connection Creation
 
 To create a connection to a specific database table, do the following.
 
@@ -70,3 +71,39 @@ Note: you want to be a little more advanced, you can actually enter any
 SQL in step 7 you like. You may be able to eliminate some ETL work in
 the next step by being creative at this point. Again, not necessary, but
 feel free to be as creative as you like at this point.
+
+### Step 3 - ETL
+
+For this step, you will be required to actually perform some ETL tasks.
+The following videos walk you through how to do basic ETL tasks using
+Domo’s Magic ETL tool. This is a drag-and-drop tool built to make
+combining data easy.
+
+-   [Domo YouTube
+    Channel](https://www.youtube.com/channel/UCLhtrgF6h4PP44nVRfSIovA)
+    -   [ETL Part 1](https://www.youtube.com/watch?v=Z-GO3IeexEk)
+    -   [ETL Part 2](https://www.youtube.com/watch?v=SfB7CZzEROo)
+    -   [ETL Part 3](https://www.youtube.com/watch?v=sKQuysWmFGA)
+
+After watching these videos, create ETL processes according to the plan
+you submitted in the last lab.
+
+If you have experience using SQL, feel free to create a SQL DataFlow.
+
+To Turn In
+----------
+
+When finished, turn in a writeup of the project that includes the
+following.
+
+-   A short discussion of your experience connecting data in Domo and
+    creating ETL processes.
+-   Discuss any issues you ran into while going through the exercise.
+-   List each of the ETL proccesses you completed and what they are
+    supposed to accomplish.
+
+Turn in the write up in Canvas[1]. Accepted formats are: docx, pdf,
+html.
+
+[1] Note that we will be running some simple tests w/in Domo to verify
+that the data sets and ETLs were created.
