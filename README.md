@@ -40,7 +40,7 @@ To create a connection to a specific database table, do the following.
     set up the first time through, so you will be required to enter the
     database details at this stage. The following information will be
     neccessary.
-    -   Host: is6481.ckbeg5to5b6o.us-east-1.rds.amazonaws.com
+    -   Host: is6481-fall2019.cseaimmgk5zc.us-east-1.rds.amazonaws.com
     -   Database name: dvdrental
     -   Username: student
     -   Password: test1234
