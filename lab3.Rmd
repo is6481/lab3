@@ -50,10 +50,8 @@ Note: you want to be a little more advanced, you can actually enter any SQL in s
 For this step, you will be required to actually perform some ETL tasks. The following videos walk you through how to do basic ETL tasks using Domo's Magic ETL tool. This is a drag-and-drop tool built to make combining data easy.
 
 * [Domo YouTube Channel](https://www.youtube.com/channel/UCLhtrgF6h4PP44nVRfSIovA) 
-    * [ETL Part 1](https://www.youtube.com/watch?v=Z-GO3IeexEk)
-    * [ETL Part 2](https://www.youtube.com/watch?v=SfB7CZzEROo)
-    * [ETL Part 3](https://www.youtube.com/watch?v=sKQuysWmFGA)
-    
+    * [ETL Parts 1,2,3](https://www.youtube.com/watch?v=xjqpW94Nq28&t=1s)
+
 After watching these videos, create ETL processes according to the plan you submitted in the last lab.
 
 If you have experience using SQL, feel free to create a SQL DataFlow.

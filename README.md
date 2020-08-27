@@ -82,9 +82,8 @@ combining data easy.
 
 -   [Domo YouTube
     Channel](https://www.youtube.com/channel/UCLhtrgF6h4PP44nVRfSIovA)
-    -   [ETL Part 1](https://www.youtube.com/watch?v=Z-GO3IeexEk)
-    -   [ETL Part 2](https://www.youtube.com/watch?v=SfB7CZzEROo)
-    -   [ETL Part 3](https://www.youtube.com/watch?v=sKQuysWmFGA)
+    -   [ETL Parts
+        1,2,3](https://www.youtube.com/watch?v=xjqpW94Nq28&t=1s)
 
 After watching these videos, create ETL processes according to the plan
 you submitted in the last lab.
