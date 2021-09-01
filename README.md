@@ -1,5 +1,4 @@
-Objectives
-==========
+# Objectives
 
 Chapter 2 of the text dicusses how strategy and analytics are related.
 Chapter 3 discusses how to use metrics to optimize business processes.
@@ -15,8 +14,7 @@ the database into Domo and create the ETL processes necessary to execute
 your plan. The full relational database has been loaded into a MySQL
 database in my AWS account for this course.
 
-High level instructions
------------------------
+## High level instructions
 
 In order to finish this lab, you will need to do the following three
 steps (in order) in your Domo account.
@@ -41,7 +39,7 @@ To create a connection to a specific database table, do the following.
     database details at this stage. The following information will be
     neccessary.
     -   Select version 8.0.13 of the JDBC driver
-    -   Host: is-6481-classroom.csuyqidhb5oq.us-east-1.rds.amazonaws.com
+    -   Host: is6481-dvdrental.c34wx99dkjzs.us-east-1.rds.amazonaws.com
     -   Database name: dvdrental
     -   Username: student
     -   Password: test1234
@@ -90,8 +88,7 @@ you submitted in the last lab.
 
 If you have experience using SQL, feel free to create a SQL DataFlow.
 
-To Turn In
-----------
+## To Turn In
 
 When finished, turn in a writeup of the project that includes the
 following.
