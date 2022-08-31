@@ -42,7 +42,7 @@ To create a connection to a specific database table, do the following.
     -   Host:
         is6481-classroom-data.crximyhxko7e.us-east-1.rds.amazonaws.com
     -   Database name: dvdrental
-    -   Username: student
+    -   Username: admin
     -   Password: test1234
     -   Note that this is a terrible security set up. If you see
         connection instructions like this in the real world, start
