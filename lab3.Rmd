@@ -41,7 +41,7 @@ To create a connection to a specific database table, do the following.
     * If you want to sync the Actor table, simply type "select * from actor" and click Save.
 8. In the scheduling window, select Manual. The data for this exercise will not update. In other circumstances, you could select any of the other options presented.
 9. Give the data set a name and click Save. I would suggest naming the tables according to where you get them. In the example above, I would name the file "DVD Rental | Actor" so we know what database it came from and which table it is. This will make your life easier later on.
-
+ 
 You have now completed steps 1 & 2 for the first data set. Repeat these steps for all the other data sets required by your plan. Note that for the second and subsequent connections you can just select the set of credentials you created earlier.
 
 Note: you want to be a little more advanced, you can actually enter any SQL in step 7 you like. You may be able to eliminate some ETL work in the next step by being creative at this point. Again, not necessary, but feel free to be as creative as you like at this point.
