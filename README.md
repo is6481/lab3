@@ -39,8 +39,7 @@ To create a connection to a specific database table, do the following.
     database details at this stage. The following information will be
     neccessary.
     -   Select version 8.0.13 of the JDBC driver
-    -   Host:
-        is6481-classroom-data.crximyhxko7e.us-east-1.rds.amazonaws.com
+    -   Host: is6481-spring23.cvimc3gkg4ne.us-east-1.rds.amazonaws.com
     -   Database name: dvdrental
     -   Username: admin
     -   Password: test1234
